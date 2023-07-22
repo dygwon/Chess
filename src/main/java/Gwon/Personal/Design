@@ -1,0 +1,27 @@
+Notes
+- pieces know their position on the board
+- the board holds each piece in a position
+- each piece checks if a move is valid (based on the piece and whether or not in bounds)
+- each player randomly assigned white or black, white goes first
+- game checks at each stage if the game is over; stalemates should be considered game over
+- ask each player for his/her name
+
+Piece
+- position
+- type
+- checkMove()
+
+extends:
+Pawn
+Rook
+Knight
+Bishop
+Queen
+King
+
+Player
+- pieces
+
+Game
+- board (holds pieces)
+- players
