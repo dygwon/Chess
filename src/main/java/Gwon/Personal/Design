@@ -25,3 +25,35 @@ Player
 Game
 - board (holds pieces)
 - players
+
+        /*
+        *
+        * inner numbers refer to array indices where
+        * rows are the outer array and columns
+        * are the inner array
+        *
+        * markings outside indices refer to
+        * corresponding chess positions
+        *
+        *            BLACK
+        * 8  0
+        * 7  1
+        * 6  2
+        * 5  3
+        * 4  4
+        * 3  5
+        * 2  6
+        * 1  70  1  2  3  4  5  6  7
+        *     A  B  C  D  E  F  G  H
+        *            WHITE
+        *
+        *     Starting layout
+        * [[R, K, B, Q, K, B, K, R]
+        *  [p, p, p, p, p, p, p, p]
+        *  [ ,  ,  ,  ,  ,  ,  ,  ]
+        *  [ ,  ,  ,  ,  ,  ,  ,  ]
+        *  [ ,  ,  ,  ,  ,  ,  ,  ]
+        *  [ ,  ,  ,  ,  ,  ,  ,  ]
+        *  [p, p, p, p, p, p, p, p]
+        *  [R, K, B, Q, K, B, K, R]]
+        * */

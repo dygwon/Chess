@@ -4,23 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="973206cb-74dd-42a1-94d2-5b625d553405" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Design" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Rook.java" afterDir="false" />
+    <list default="true" id="973206cb-74dd-42a1-94d2-5b625d553405" name="Changes" comment="create board, pieces, and basic ability to move pieces.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/ChessGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Design" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Design" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Pawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Queen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gwon/Personal/Rook.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <module name="Chess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Gwon.Personal.*" />
+          <option name="PATTERN" value="Gwon.Personal.ChessGame" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +100,26 @@
       <option name="presentableId" value="Default" />
       <updated>1689131856471</updated>
       <workItem from="1689131858022" duration="1374000" />
-      <workItem from="1689534291986" duration="6756000" />
+      <workItem from="1689534291986" duration="17290000" />
+      <workItem from="1692992008416" duration="7000" />
+      <workItem from="1694910825356" duration="6305000" />
+      <workItem from="1694981861777" duration="17415000" />
     </task>
+    <task id="LOCAL-00001" summary="create board, pieces, and basic ability to move pieces.">
+      <created>1689985812359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689985812359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create board, pieces, and basic ability to move pieces." />
+    <option name="LAST_COMMIT_MESSAGE" value="create board, pieces, and basic ability to move pieces." />
   </component>
 </project>
